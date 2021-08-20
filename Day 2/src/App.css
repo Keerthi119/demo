@@ -1,0 +1,36 @@
+.App {
+ /*  text-align: center; */
+}
+.container{
+  width: 70%;
+  margin-left: 15%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.container-title{
+    margin-left: 15%;
+}
+.card{
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.card-img{
+  width: 300px;
+  height: 150px;
+  overflow: hidden;
+
+}
+.card-image{
+  width: 100%;
+}
+.card-title, .card-sub-title, .card-desc{
+ padding-left: 15px;
+ padding-right: 15px;
+}
+.card-btn{
+ padding-right: 15px;
+ padding-left: 15px;
+  padding: 15px, 30px;
+}
